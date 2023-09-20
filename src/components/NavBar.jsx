@@ -14,12 +14,11 @@ const NavBar = () => {
         <div className="hidden w-full md:block md:w-auto" id="navbar-default">
           <div className="text-2xl flex gap-3">
             <select
-              id="countries"
-              class="bg-gray-50 border border-gray-300 text-gray-900 text-xl rounded-lg px-3 "
+              id="currency"
+              className="bg-gray-50 border border-gray-300 text-gray-900 text-xl rounded-lg px-3 "
+              defaultValue={"INR"}
             >
-              <option selected value="INR">
-                INR
-              </option>
+              <option value="INR">INR</option>
               <option value="USD">USD</option>
             </select>
 
